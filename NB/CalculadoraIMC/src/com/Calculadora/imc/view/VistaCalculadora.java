@@ -163,7 +163,7 @@ public class VistaCalculadora extends javax.swing.JFrame {
 
         /* Create and display the form */
         //java.awt.EventQueue.invokeLater(() -> new VistaCalculadora().setVisible(true));
-        /* La linea 127 solo crea la vista, no crea el controlador */
+        /* La linea anterior solo crea la vista, no crea el controlador */
         java.awt.EventQueue.invokeLater(() -> {
             VistaCalculadora vista = new VistaCalculadora();
             IMCController controlador = new IMCController(vista);
